@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Santhosh Prabhu Hero Banner" width="100%" />
+<img src="./assets/hero.svg" alt="Rithik SV Hero Banner" width="100%" />
 
 <br/>
 
@@ -8,19 +8,19 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=fff&labelColor=0d1527)](https://www.typescriptlang.org/)
 [![React / Next.js](https://img.shields.io/badge/Frontend-React_19_%2F_Next.js-61DAFB?style=flat-square&logo=react&logoColor=000&labelColor=0d1527)](https://nextjs.org/)
 [![Testing](https://img.shields.io/badge/Quality-Vitest_%2B_Playwright-22c55e?style=flat-square&logo=vitest&logoColor=fff&labelColor=0d1527)](https://vitest.dev/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming_Soon-a855f7?style=flat-square&logo=google-chrome&logoColor=fff&labelColor=0d1527)](#-connect)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore_Live-a855f7?style=flat-square&logo=google-chrome&logoColor=fff&labelColor=0d1527)](https://developer-portfolio-eta-steel.vercel.app/)
 
 </div>
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 About Rithik
 
 I am a student software developer focused on building ambitious, interactive web applications and resilient client-side systems. My work bridges interactive 2D/3D graphics, local-first offline architectures, and rigorous testing methodologies. 
 
 - 🔭 **Core Focus:** TypeScript engineering, reactive UI architectures (React/Next.js), 2D/3D Canvas rendering (Three.js), and local-first data persistence.
 - ⚡ **Engineering Philosophy:** Fast load times, zero unnecessary server roundtrips, strict input discipline, and deterministic state transitions backed by automated test suites.
-- 🌐 **Portfolio & Case Studies:** Live interactive demos deployed below. Full personal site coming soon.
+- 🌐 **Portfolio & Case Studies:** Live interactive demos deployed below. Explore my full portfolio and detailed case studies at https://developer-portfolio-eta-steel.vercel.app/.
 
 ---
 
@@ -106,6 +106,10 @@ leinhabersv-bit/
 
 ---
 
+### 🌐 Portfolio
+
+**[Explore my interactive developer portfolio →](https://developer-portfolio-eta-steel.vercel.app/)**
+
 ### 📫 Connect
 
 <p align="left">
@@ -115,13 +119,10 @@ leinhabersv-bit/
   <a href="mailto:leinhabersv@gmail.com">
     <img src="https://img.shields.io/badge/Email-leinhabersv%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1527" alt="Direct Email" />
   </a>
-  <a href="https://linkedin.com/in/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1527" alt="LinkedIn Profile" />
-  </a>
 </p>
 
 ---
 
 <div align="center">
-  <sub>Built with care &amp; precision by Santhosh Prabhu (<b>@leinhabersv-bit</b>). Crafted for performance, clarity, and resilience.</sub>
+  <sub>Built with care &amp; precision by Rithik SV (<b>@leinhabersv-bit</b>). Crafted for performance, clarity, and resilience.</sub>
 </div>
