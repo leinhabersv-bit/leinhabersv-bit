@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="100%" height="auto">
+  <defs>
+    <linearGradient id="p-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12080A"/>
+      <stop offset="45%" stop-color="#1A0D10"/>
+      <stop offset="100%" stop-color="#0A0608"/>
+    </linearGradient>
+
+    <linearGradient id="p-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3838"/>
+      <stop offset="50%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#C8F75A"/>
+    </linearGradient>
+
+    <pattern id="p-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(255, 56, 56, 0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="540" rx="16" fill="url(#p-bg)"/>
+  <rect width="1200" height="540" rx="16" fill="url(#p-grid)"/>
+  <rect width="1198" height="538" x="1" y="1" rx="15" fill="none" stroke="rgba(255, 56, 56, 0.15)" stroke-width="1"/>
+  <path d="M 20 1 L 1180 1" stroke="url(#p-accent)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Left Side: Kinetic Trajectory Kinematics Diagram -->
+  <g transform="translate(48, 52)">
+    <!-- Radar / Boundary Box -->
+    <rect width="460" height="436" rx="12" fill="rgba(0, 0, 0, 0.45)" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+    <text x="24" y="34" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#FF3838" letter-spacing="1">
+      SIMULATION // TRAJECTORY &amp; SLIP-ANGLE KINEMATICS
+    </text>
+
+    <!-- Coordinate Grid Lines -->
+    <line x1="24" y1="218" x2="436" y2="218" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" stroke-dasharray="4, 4"/>
+    <line x1="230" y1="48" x2="230" y2="400" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" stroke-dasharray="4, 4"/>
+
+    <!-- Drift Slip-Angle Arc -->
+    <path d="M 60 360 C 120 340, 220 280, 260 160 C 290 80, 360 80, 410 120" fill="none" stroke="#FF6B00" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 60 360 C 120 340, 220 280, 260 160 C 290 80, 360 80, 410 120" fill="none" stroke="#FF3838" stroke-width="1" stroke-dasharray="4, 4"/>
+
+    <!-- Hold-to-Charge Launch Vector -->
+    <path d="M 260 160 Q 320 220, 390 280" fill="none" stroke="#C8F75A" stroke-width="2.5" stroke-dasharray="6, 3"/>
+
+    <!-- Vehicle Tangent Marker -->
+    <g transform="translate(260, 160)">
+      <polygon points="0,-14 10,12 -10,12" fill="#FF3838"/>
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#FF6B00" stroke-width="1.5" stroke-dasharray="3, 3"/>
+      <text x="22" y="4" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#FFFFFF">VELOCITY_VECTOR</text>
+    </g>
+
+    <!-- Delivery Target Zone -->
+    <g transform="translate(390, 280)">
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#C8F75A" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="14" fill="rgba(200, 247, 90, 0.2)"/>
+      <circle cx="0" cy="0" r="4" fill="#C8F75A"/>
+      <text x="0" y="44" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#C8F75A">DROP_TARGET (±0.4s)</text>
+    </g>
+
+    <!-- Cargo Telemetry Bar -->
+    <g transform="translate(24, 390)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94A3B8">CARGO MATRIX: [PIZZA: STABLE] • [EXPRESS: RAPID] • [FRAGILE: NO_COLLISION]</text>
+    </g>
+  </g>
+
+  <!-- Right Side: Project Architecture & Technical Story -->
+  <g transform="translate(544, 52)">
+    <!-- Index Header -->
+    <g transform="translate(0, 18)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#FF3838" letter-spacing="1.5">
+        001 // FLAGSHIP ARCADE ENGINE
+      </text>
+      <rect x="250" y="-12" width="168" height="22" rx="4" fill="rgba(200, 247, 90, 0.1)" stroke="rgba(200, 247, 90, 0.3)" stroke-width="1"/>
+      <text x="334" y="3" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#C8F75A">● LIVE ON VERCEL (PROD)</text>
+    </g>
+
+    <!-- Title -->
+    <text x="0" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF" letter-spacing="-1">
+      PANIC DELIVERY
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="98" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="500" fill="#FF6B00">
+      Arcade Driving &amp; Hold-to-Charge Kinetic Delivery Engine
+    </text>
+
+    <!-- Narrative Paragraph -->
+    <text x="0" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#CBD5E1">
+      Engineered from scratch using pure TypeScript, HTML5 Canvas 2D, Three.js spatial spikes,
+    </text>
+    <text x="0" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#CBD5E1">
+      and real-time procedural Web Audio synthesis. Delivers high-velocity vehicle drift physics,
+    </text>
+    <text x="0" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#CBD5E1">
+      precision package projectile kinematics, dynamic traffic, and zero external sound samples.
+    </text>
+
+    <!-- Architectural Differentiators (3 Boxes) -->
+    <g transform="translate(0, 214)">
+      <!-- Box 1 -->
+      <rect x="0" y="0" width="186" height="88" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1"/>
+      <text x="14" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#FF6B00">DRIFT PHYSICS</text>
+      <text x="14" y="44" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">Custom slip-angle</text>
+      <text x="14" y="60" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">simulation &amp; traction</text>
+      <text x="14" y="76" font-family="-apple-system, sans-serif" font-size="11" fill="#64748B">6-Key Input Loop</text>
+
+      <!-- Box 2 -->
+      <rect x="200" y="0" width="186" height="88" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1"/>
+      <text x="214" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C8F75A">PROCEDURAL AUDIO</text>
+      <text x="214" y="44" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">Web Audio API synth</text>
+      <text x="214" y="60" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">Engine revs &amp; fanfares</text>
+      <text x="214" y="76" font-family="-apple-system, sans-serif" font-size="11" fill="#64748B">Zero Asset Bloat</text>
+
+      <!-- Box 3 -->
+      <rect x="400" y="0" width="186" height="88" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1"/>
+      <text x="414" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38BDF8">VERIFIED QUALITY</text>
+      <text x="414" y="44" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">10/10 Vitest Suites</text>
+      <text x="414" y="60" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">Passing in CI Pipeline</text>
+      <text x="414" y="76" font-family="-apple-system, sans-serif" font-size="11" fill="#64748B">Zero Flaky States</text>
+    </g>
+
+    <!-- Stack Footprint & Verified CTAs -->
+    <g transform="translate(0, 332)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748B">
+        STACK: TypeScript • Canvas 2D • Three.js • Web Audio API • Vitest • Vite
+      </text>
+
+      <g transform="translate(0, 24)">
+        <rect x="0" y="0" width="180" height="36" rx="6" fill="#FF3838"/>
+        <text x="90" y="22" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#FFFFFF">
+          PLAY LIVE GAME →
+        </text>
+
+        <rect x="194" y="0" width="180" height="36" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1"/>
+        <text x="284" y="22" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#E2E8F0">
+          VIEW SOURCE CODE
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
