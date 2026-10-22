@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="auto">
+  <defs>
+    <linearGradient id="panel-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c121e"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+    <linearGradient id="tag-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(0, 245, 212, 0.3)"/>
+      <stop offset="100%" stop-color="rgba(168, 85, 247, 0.3)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="920" height="180" rx="14" fill="url(#panel-bg)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+
+  <!-- Column 1: Core Languages -->
+  <g transform="translate(32, 28)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#00f5d4" letter-spacing="1.2">01 // LANGUAGES</text>
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#ffffff">TypeScript</text>
+    <text x="0" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">JavaScript (ESNext)</text>
+    <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Python 3.x</text>
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">HTML5 &amp; Modern CSS</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="230" y1="28" x2="230" y2="148" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+
+  <!-- Column 2: Frontend & Frameworks -->
+  <g transform="translate(254, 28)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="1.2">02 // FRONTEND</text>
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#ffffff">React 18 / 19</text>
+    <text x="0" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Next.js (App Router)</text>
+    <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Vite Ecosystem</text>
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Framer Motion &amp; Tailwind</text>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="460" y1="28" x2="460" y2="148" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+
+  <!-- Column 3: Graphics & Systems -->
+  <g transform="translate(484, 28)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#a855f7" letter-spacing="1.2">03 // GRAPHICS &amp; DATA</text>
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#ffffff">Three.js &amp; Canvas 2D</text>
+    <text x="0" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Web Audio API (Synthesizers)</text>
+    <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Local-First (IndexedDB)</text>
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Data Ingestion (Cheerio / REST)</text>
+  </g>
+
+  <!-- Divider 3 -->
+  <line x1="690" y1="28" x2="690" y2="148" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+
+  <!-- Column 4: Testing & Tooling -->
+  <g transform="translate(714, 28)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#f43f5e" letter-spacing="1.2">04 // QUALITY &amp; OPS</text>
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#ffffff">Vitest &amp; Node Test</text>
+    <text x="0" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Playwright E2E</text>
+    <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Git &amp; GitHub Actions</text>
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Vercel Deployment</text>
+  </g>
+</svg>

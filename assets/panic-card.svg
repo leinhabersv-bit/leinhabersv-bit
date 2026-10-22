@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 130" width="100%" height="auto">
+  <defs>
+    <linearGradient id="panic-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="panic-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="50%" stop-color="#ff5400"/>
+      <stop offset="100%" stop-color="#00f5d4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="920" height="130" rx="12" fill="url(#panic-bg)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+  <path d="M 16 1 L 904 1" stroke="url(#panic-accent)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Icon & Title -->
+  <g transform="translate(28, 28)">
+    <rect width="44" height="44" rx="8" fill="rgba(255, 0, 85, 0.12)" stroke="rgba(255, 0, 85, 0.3)" stroke-width="1"/>
+    <text x="22" y="28" font-size="20" text-anchor="middle">📦</text>
+  </g>
+
+  <g transform="translate(86, 38)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#ffffff" letter-spacing="-0.3">
+      PANIC DELIVERY <tspan font-size="12" font-weight="600" fill="#00f5d4" dx="8">● LIVE PROD (Vercel)</tspan>
+    </text>
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#94a3b8">
+      Top-Down Arcade Driving &amp; Package Delivery Engine • TypeScript, Three.js, Canvas &amp; Web Audio API
+    </text>
+  </g>
+
+  <!-- Metrics / Badges right aligned -->
+  <g transform="translate(620, 36)">
+    <rect x="0" y="0" width="130" height="28" rx="6" fill="rgba(0, 245, 212, 0.08)" stroke="rgba(0, 245, 212, 0.2)" stroke-width="1"/>
+    <text x="65" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#00f5d4">10/10 UNIT TESTS</text>
+
+    <rect x="140" y="0" width="130" height="28" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+    <text x="205" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">6-KEY DISCIPLINE</text>
+  </g>
+
+  <!-- Tags line -->
+  <g transform="translate(86, 96)">
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#64748b">
+      Stack: TypeScript • Vite • Canvas 2D • Three.js Spike • Procedural Audio Synth • 120s Match Loop
+    </text>
+  </g>
+</svg>
