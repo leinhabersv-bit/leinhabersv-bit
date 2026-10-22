@@ -51,9 +51,9 @@
 
   <!-- Title / Name -->
   <text x="48" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="#ffffff" letter-spacing="-0.8">
-    Santhosh Prabhu
+    RITHIK SV
   </text>
-  <text x="390" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="400" fill="#64748b">
+  <text x="290" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="400" fill="#64748b">
     • Software &amp; Systems Builder
   </text>
 
