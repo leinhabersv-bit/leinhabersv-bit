@@ -14,13 +14,13 @@
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 About Rithik
 
 I am RITHIK SV, a student software developer focused on building ambitious, interactive web applications and resilient client-side systems. My work bridges interactive 2D/3D graphics, local-first offline architectures, and rigorous testing methodologies. 
 
 - 🔭 **Core Focus:** TypeScript engineering, reactive UI architectures (React/Next.js), 2D/3D Canvas rendering (Three.js), and local-first data persistence.
 - ⚡ **Engineering Philosophy:** Fast load times, zero unnecessary server roundtrips, strict input discipline, and deterministic state transitions backed by automated test suites.
-- 🌐 **Portfolio & Case Studies:** Live interactive demos and architectural breakdowns deployed at [developer-portfolio-eta-steel.vercel.app](https://developer-portfolio-eta-steel.vercel.app/).
+- 🌐 **Portfolio & Case Studies:** Live interactive demos and deep-dive technical case studies at [developer-portfolio-eta-steel.vercel.app](https://developer-portfolio-eta-steel.vercel.app/).
 
 ---
 
@@ -105,6 +105,10 @@ leinhabersv-bit/
 ```
 
 ---
+
+### 🌐 Portfolio
+
+**[Explore my interactive developer portfolio →](https://developer-portfolio-eta-steel.vercel.app/)**
 
 ### 📫 Connect
 
