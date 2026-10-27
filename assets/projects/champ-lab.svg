@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="100%" height="auto">
+  <defs>
+    <linearGradient id="champ-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060c16"/>
+      <stop offset="50%" stop-color="#0b1526"/>
+      <stop offset="100%" stop-color="#040810"/>
+    </linearGradient>
+
+    <linearGradient id="champ-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4"/>
+      <stop offset="45%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <pattern id="champ-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(0, 245, 212, 0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="540" rx="16" fill="url(#champ-bg)"/>
+  <rect width="1200" height="540" rx="16" fill="url(#champ-grid)"/>
+  <rect width="1198" height="538" x="1" y="1" rx="15" fill="none" stroke="rgba(0, 245, 212, 0.18)" stroke-width="1"/>
+  <path d="M 20 1 L 1180 1" stroke="url(#champ-accent)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Left Side: Laser Diffraction & Quantum Tunneling Analytical Diagram -->
+  <g transform="translate(48, 52)">
+    <!-- Radar / Boundary Box -->
+    <rect width="460" height="436" rx="12" fill="rgba(2, 6, 14, 0.65)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+    <text x="24" y="34" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00F5D4" letter-spacing="1">
+      SIMULATION // LASER DIFFRACTION &amp; WAVE MECHANICS
+    </text>
+
+    <!-- Coordinate Grid Lines -->
+    <line x1="24" y1="210" x2="436" y2="210" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1" stroke-dasharray="4, 4"/>
+    <line x1="230" y1="48" x2="230" y2="390" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1" stroke-dasharray="4, 4"/>
+
+    <!-- Laser Diffraction Sinc Envelope Curve: I(x) = I_0 * (sin(x)/x)^2 -->
+    <!-- Central primary peak at x=230, side peaks at 150, 310, 100, 360 -->
+    <path d="M 50 208 C 80 208, 90 202, 100 195 C 110 206, 130 206, 145 185 C 160 155, 175 204, 190 206 C 205 204, 215 70, 230 68 C 245 70, 255 204, 270 206 C 285 204, 300 155, 315 185 C 330 206, 350 206, 360 195 C 370 202, 380 208, 410 208"
+          fill="none" stroke="#00F5D4" stroke-width="3" stroke-linecap="round"/>
+    <!-- Glow aura -->
+    <path d="M 50 208 C 80 208, 90 202, 100 195 C 110 206, 130 206, 145 185 C 160 155, 175 204, 190 206 C 205 204, 215 70, 230 68 C 245 70, 255 204, 270 206 C 285 204, 300 155, 315 185 C 330 206, 350 206, 360 195 C 370 202, 380 208, 410 208"
+          fill="none" stroke="rgba(0, 245, 212, 0.3)" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Peak Intensity Marker -->
+    <g transform="translate(230, 68)">
+      <circle cx="0" cy="0" r="4" fill="#00F5D4"/>
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#00F5D4" stroke-width="1" stroke-dasharray="2, 2"/>
+      <text x="12" y="4" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#38BDF8">I₀ (CENTRAL MAX)</text>
+    </g>
+
+    <!-- Slit Pitch Geometry Crosshair -->
+    <g transform="translate(145, 185)">
+      <circle cx="0" cy="0" r="3" fill="#A855F7"/>
+      <text x="-8" y="-8" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#A855F7">m = -1</text>
+    </g>
+    <g transform="translate(315, 185)">
+      <circle cx="0" cy="0" r="3" fill="#A855F7"/>
+      <text x="8" y="-8" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#A855F7">m = +1</text>
+    </g>
+
+    <!-- Lower Panel: Quantum Tunneling Potential Step & Wavefunction -->
+    <g transform="translate(24, 240)">
+      <rect width="412" height="136" rx="8" fill="rgba(0, 0, 0, 0.4)" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+      <!-- Barrier Rectangle -->
+      <rect x="150" y="24" width="100" height="96" fill="rgba(168, 85, 247, 0.15)" stroke="#A855F7" stroke-width="1.2" stroke-dasharray="3, 3"/>
+      <text x="200" y="42" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#A855F7">BARRIER V₀</text>
+
+      <!-- Incident Harmonic Sine Wave -->
+      <path d="M 20 80 Q 40 40, 60 80 T 100 80 T 140 80 T 150 80" fill="none" stroke="#38BDF8" stroke-width="2"/>
+      <!-- Evanescent Decay in Barrier -->
+      <path d="M 150 80 C 180 82, 220 95, 250 96" fill="none" stroke="#00F5D4" stroke-width="2.5"/>
+      <!-- Transmitted Low-Amplitude Wave -->
+      <path d="M 250 96 Q 275 80, 300 96 T 350 96 T 395 96" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="2, 1"/>
+
+      <!-- Telemetry Text -->
+      <text x="20" y="20" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#94A3B8">
+        QUANTUM TRANSMISSION: T(E) = [1 + V₀² sinh²(ka) / 4E(V₀-E)]⁻¹
+      </text>
+      <text x="20" y="125" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00F5D4">
+        λ = 650.0 nm (He-Ne) • SLIT: 500 lines/mm • T_calc = 0.4284 (±0.0012)
+      </text>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <g transform="translate(24, 400)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748B">
+        VIT CHENNAI BAPHY105 // 9 WORKBENCHES // 132/132 PASSING VITEST TESTS
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Project Architecture & Technical Story -->
+  <g transform="translate(544, 52)">
+    <!-- Index Header -->
+    <g transform="translate(0, 18)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#00F5D4" letter-spacing="1.5">
+        001 // FLAGSHIP SCIENTIFIC SIMULATION ENGINE
+      </text>
+      <rect x="330" y="-12" width="168" height="22" rx="4" fill="rgba(0, 245, 212, 0.12)" stroke="rgba(0, 245, 212, 0.35)" stroke-width="1"/>
+      <text x="414" y="3" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#00F5D4">● 132 PASSING TESTS</text>
+    </g>
+
+    <!-- Title -->
+    <text x="0" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="#FFFFFF" letter-spacing="-0.8">
+      CHAMP VIRTUAL PHYSICS LAB
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="98" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" fill="#38BDF8" letter-spacing="0.5">
+      VIT Chennai BAPHY105 Syllabus-Aligned Simulation Workbenches
+    </text>
+
+    <!-- Narrative -->
+    <text x="0" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#CBD5E1" line-height="1.5">
+      A comprehensive web-based experimental physics platform built for engineering students.
+    </text>
+    <text x="0" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94A3B8">
+      Simulates 9 laboratory experiments with real-time error propagation, least-squares fits,
+    </text>
+    <text x="0" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94A3B8">
+      high-fidelity Canvas 2D wave mechanics, and KaTeX mathematical rigor.
+    </text>
+
+    <!-- 4 Architectural Pillars -->
+    <g transform="translate(0, 196)">
+      <!-- Pillar 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="288" height="52" rx="6" fill="rgba(255, 255, 255, 0.02)" stroke="rgba(0, 245, 212, 0.2)" stroke-width="1"/>
+        <text x="14" y="20" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00F5D4">01 // 9 Interactive Workbenches</text>
+        <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">Laser, Hall Effect, Torsion, Numerical Int.</text>
+      </g>
+
+      <!-- Pillar 2 -->
+      <g transform="translate(300, 0)">
+        <rect width="288" height="52" rx="6" fill="rgba(255, 255, 255, 0.02)" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1"/>
+        <text x="14" y="20" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38BDF8">02 // KaTeX Analytical Rigor</text>
+        <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">Deterministic formulas &amp; error propagation</text>
+      </g>
+
+      <!-- Pillar 3 -->
+      <g transform="translate(0, 62)">
+        <rect width="288" height="52" rx="6" fill="rgba(255, 255, 255, 0.02)" stroke="rgba(168, 85, 247, 0.2)" stroke-width="1"/>
+        <text x="14" y="20" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#A855F7">03 // Canvas 2D Wave Mechanics</text>
+        <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">60fps dynamic wavefunction &amp; photon patterns</text>
+      </g>
+
+      <!-- Pillar 4 -->
+      <g transform="translate(300, 62)">
+        <rect width="288" height="52" rx="6" fill="rgba(255, 255, 255, 0.02)" stroke="rgba(200, 247, 90, 0.2)" stroke-width="1"/>
+        <text x="14" y="20" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C8F75A">04 // 132 Passing Vitest Tests</text>
+        <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">26 test suites verifying physical boundaries</text>
+      </g>
+    </g>
+
+    <!-- Stack Tags -->
+    <g transform="translate(0, 334)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#64748B" letter-spacing="1">
+        VERIFIED STACK //
+      </text>
+      <g transform="translate(0, 12)">
+        <rect x="0" y="0" width="98" height="26" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+        <text x="49" y="17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#E2E8F0">TypeScript</text>
+
+        <rect x="108" y="0" width="102" height="26" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+        <text x="159" y="17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#E2E8F0">Next.js 15</text>
+
+        <rect x="220" y="0" width="80" height="26" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+        <text x="260" y="17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#E2E8F0">KaTeX</text>
+
+        <rect x="310" y="0" width="94" height="26" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+        <text x="357" y="17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#E2E8F0">Canvas 2D</text>
+
+        <rect x="414" y="0" width="168" height="26" rx="4" fill="rgba(0, 245, 212, 0.1)" stroke="rgba(0, 245, 212, 0.3)" stroke-width="1"/>
+        <text x="498" y="17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#00F5D4">Vitest (132/132 Tests)</text>
+      </g>
+    </g>
+
+    <!-- Source Link Indication -->
+    <g transform="translate(0, 400)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38BDF8">
+        REPOSITORY: github.com/leinhabersv-bit/champ-virtual-physics-lab →
+      </text>
+    </g>
+  </g>
+</svg>
