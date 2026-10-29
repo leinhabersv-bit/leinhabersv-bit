@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="100%" height="auto">
+  <defs>
+    <linearGradient id="adapt-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E1A"/>
+      <stop offset="45%" stop-color="#0B1528"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="adapt-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C8F75A"/>
+    </linearGradient>
+
+    <pattern id="adapt-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(56, 189, 248, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="540" rx="16" fill="url(#adapt-bg)"/>
+  <rect width="1200" height="540" rx="16" fill="url(#adapt-grid)"/>
+  <rect width="1198" height="538" x="1" y="1" rx="15" fill="none" stroke="rgba(56, 189, 248, 0.18)" stroke-width="1"/>
+  <path d="M 20 1 L 1180 1" stroke="url(#adapt-accent)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Left Side: Log-Log Diminishing Return Model & Stock Curve -->
+  <g transform="translate(48, 52)">
+    <!-- Diagram Card -->
+    <rect width="470" height="436" rx="12" fill="rgba(0, 0, 0, 0.55)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+    <text x="24" y="34" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1">
+      MATHEMATICAL MODEL // LOG-LOG MARGINAL PROFIT
+    </text>
+
+    <!-- Axes -->
+    <line x1="50" y1="360" x2="430" y2="360" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1.5"/>
+    <line x1="50" y1="80" x2="50" y2="360" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1.5"/>
+    <text x="430" y="380" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94A3B8">Spend (s)</text>
+    <text x="40" y="75" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94A3B8">Revenue / Profit</text>
+
+    <!-- Sub-linear Return Curve: R(s) = r0 * (s/s0)^beta -->
+    <path d="M 50 360 C 130 230, 240 160, 420 130" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Linear Spend Cost Line -->
+    <line x1="50" y1="360" x2="420" y2="240" stroke="rgba(248, 113, 113, 0.6)" stroke-width="1.5" stroke-dasharray="4, 4"/>
+    <!-- Optimal Allocation Point (Marginal Profit = 0) -->
+    <line x1="280" y1="80" x2="280" y2="360" stroke="rgba(200, 247, 90, 0.4)" stroke-width="1.5" stroke-dasharray="3, 3"/>
+    <circle cx="280" cy="172" r="5" fill="#C8F75A"/>
+    <circle cx="280" cy="172" r="11" fill="none" stroke="#C8F75A" stroke-width="1.5" stroke-dasharray="2, 2"/>
+
+    <text x="290" y="165" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#C8F75A">OPTIMAL SPEND (dπ/ds = 0)</text>
+    <text x="290" y="180" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">m · β · ROAS - 1 = 0</text>
+
+    <!-- Formula Badges -->
+    <rect x="24" y="388" width="205" height="32" rx="6" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+    <text x="34" y="408" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#38BDF8">R(s) = r₀(s/s₀)^β (β ∈ [0.4, 0.9])</text>
+
+    <rect x="240" y="388" width="205" height="32" rx="6" fill="rgba(200, 247, 90, 0.1)" stroke="rgba(200, 247, 90, 0.3)" stroke-width="1"/>
+    <text x="250" y="408" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#C8F75A">Break-even ROAS = 1 / margin</text>
+  </g>
+
+  <!-- Right Side: Editorial Headers, Metrics & Explicit Team Attribution -->
+  <g transform="translate(560, 52)">
+    <!-- Collaborative Attribution Header -->
+    <rect width="592" height="34" rx="8" fill="rgba(129, 140, 248, 0.15)" stroke="rgba(129, 140, 248, 0.4)" stroke-width="1"/>
+    <circle cx="20" cy="17" r="4" fill="#818CF8"/>
+    <text x="32" y="21" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#A5B4FC" letter-spacing="1.2">
+      COLLABORATIVE PROJECT // TEAM M.A.R.K.A.N (6 CONTRIBUTORS)
+    </text>
+
+    <!-- Title & Challenge -->
+    <text x="0" y="80" font-family="'Inter', sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" letter-spacing="-0.8">
+      A.D.A.P.T.
+    </text>
+    <text x="160" y="78" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" fill="#38BDF8">
+      Autonomous Decision Engine
+    </text>
+    <text x="0" y="105" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#94A3B8">
+      DataQuest 3.0 • Problem DQPS • D2C Advertising Intelligence
+    </text>
+
+    <!-- Core Pitch -->
+    <text x="0" y="145" font-family="'Inter', sans-serif" font-size="14" fill="#CBD5E1" line-height="22">
+      <tspan x="0" dy="0">Autonomous decision-support platform replacing vanity ROAS with actual</tspan>
+      <tspan x="0" dy="22">contribution profit. Fits log-log return curves, calculates SKU break-evens,</tspan>
+      <tspan x="0" dy="22">enforces inventory runway constraints, and runs closed-loop M5 learning.</tspan>
+    </text>
+
+    <!-- Key Metrics Grid -->
+    <g transform="translate(0, 220)">
+      <rect width="186" height="74" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+      <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94A3B8">TEAM COLLABORATION</text>
+      <text x="16" y="56" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="700" fill="#C8F75A">6 Members</text>
+
+      <rect x="202" y="0" width="186" height="74" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+      <text x="218" y="28" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94A3B8">AUTOMATED TESTS</text>
+      <text x="218" y="56" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="700" fill="#38BDF8">86 Passing</text>
+
+      <rect x="404" y="0" width="188" height="74" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+      <text x="420" y="28" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94A3B8">DECISION ACCURACY</text>
+      <text x="420" y="56" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="700" fill="#818CF8">M5 Loop</text>
+    </g>
+
+    <!-- Contribution Role & Link Strip -->
+    <g transform="translate(0, 318)">
+      <rect width="592" height="60" rx="8" fill="rgba(0, 0, 0, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+      <text x="16" y="26" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#94A3B8">MY ROLE IN TEAM:</text>
+      <text x="140" y="26" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#FFFFFF">Team Contributor / Collaborative Developer</text>
+      <text x="16" y="46" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">Engineered decision hardening, runtime state machines, persistence, and test harnesses.</text>
+    </g>
+
+    <!-- Links / Repo -->
+    <g transform="translate(0, 400)">
+      <text x="0" y="20" font-family="'JetBrains Mono', monospace" font-size="12" fill="#38BDF8">
+        github.com/Bot25692/dqps-engine • DataQuest 3.0 DQPS
+      </text>
+    </g>
+  </g>
+</svg>

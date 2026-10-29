@@ -7,7 +7,7 @@
 [![Status: Active](https://img.shields.io/badge/Status-Actively_Building_%26_Shipping-C8F75A?style=flat-square&logo=git&logoColor=000&labelColor=0d1117)](https://github.com/leinhabersv-bit)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-38BDF8?style=flat-square&logo=typescript&logoColor=fff&labelColor=0d1117)](https://www.typescriptlang.org/)
 [![React / Next.js](https://img.shields.io/badge/Frontend-Next.js_16_%2F_React_19-61DAFB?style=flat-square&logo=next.js&logoColor=000&labelColor=0d1117)](https://nextjs.org/)
-[![Testing](https://img.shields.io/badge/Quality-142%2B_Vitest_Tests_Passing-22c55e?style=flat-square&logo=vitest&logoColor=fff&labelColor=0d1117)](https://vitest.dev/)
+[![Testing](https://img.shields.io/badge/Quality-228%2B_Vitest_Tests_Passing-22c55e?style=flat-square&logo=vitest&logoColor=fff&labelColor=0d1117)](https://vitest.dev/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Exhibition-A855F7?style=flat-square&logo=vercel&logoColor=fff&labelColor=0d1117)](https://developer-portfolio-eta-steel.vercel.app/)
 
 </div>
@@ -18,7 +18,7 @@
 
 > **"Interactive systems. Mathematical aesthetics. Deterministic engineering."**
 
-I am **RITHIK SV** ([@leinhabersv-bit](https://github.com/leinhabersv-bit)), a student software developer at **Vellore Institute of Technology (VIT Chennai)** engineering ambitious client-side systems, interactive 2D/3D visual graphics, scientific physics simulation workbenches, and local-first data persistence. My work combines analytical wave mechanics, vehicle kinematic physics, procedural Web Audio synthesis, Directed Acyclic Graph constraint solvers, and deterministic state transitions backed by **142+ automated tests** across my repositories.
+I am **RITHIK SV** ([@leinhabersv-bit](https://github.com/leinhabersv-bit)), a student software developer at **Vellore Institute of Technology (VIT Chennai)** engineering ambitious client-side systems, interactive 2D/3D visual graphics, scientific physics simulation workbenches, and local-first data persistence. My work combines analytical wave mechanics, vehicle kinematic physics, procedural Web Audio synthesis, Directed Acyclic Graph constraint solvers, and deterministic state transitions backed by **228+ automated tests** across my repositories.
 
 - ⚡ **Core Discipline:** TypeScript engineering, reactive UI architectures (Next.js App Router / React 19), Canvas 2D & Three.js spatial geometry, and local-first browser storage (IndexedDB).
 - 🧭 **Explore Live Work:** [Interactive 3D Portfolio](https://developer-portfolio-eta-steel.vercel.app/) • [Play Panic Delivery](https://panic-delivery.vercel.app/) • [Flagship Physics Lab](#chapter-01--selected-work)
@@ -92,6 +92,28 @@ I am **RITHIK SV** ([@leinhabersv-bit](https://github.com/leinhabersv-bit)), a s
   - **Resilient AI Summary:** Contextual topic summaries powered by OpenAI API with automatic fallback mechanisms when offline or unconfigured.
 - **Exhibition Links:** [📂 Open Source Repository](https://github.com/leinhabersv-bit/Mic-learning-path) • [🧭 Portfolio Case Study](https://developer-portfolio-eta-steel.vercel.app/work/mic-learning-path)
 
+<br/>
+
+#### 005 // A.D.A.P.T. — Autonomous Advertising Decision Engine (Team M.A.R.K.A.N)
+
+<div align="center">
+  <a href="https://github.com/Bot25692/dqps-engine">
+    <img src="./assets/projects/adapt-engine.svg" alt="A.D.A.P.T. Autonomous Advertising Decision Engine Exhibition Banner" width="100%" />
+  </a>
+</div>
+
+> 🤝 **TEAM ATTRIBUTION:** Built collaboratively by **Team M.A.R.K.A.N — 6 Team Members** for **DataQuest 3.0 (Problem DQPS)**.
+
+- **Overview:** Contributed to A.D.A.P.T., an autonomous D2C advertising intelligence and decision-support platform developed collaboratively by the six-member Team M.A.R.K.A.N for DataQuest 3.0 (DQPS). The platform explores a structured approach to analyzing D2C advertising performance, generating actionable recommendations, and supporting simulated campaign decisions through analytics and feedback-driven workflows.
+- **My Role:** **Team Contributor / Collaborative Developer** (decision hardening, deterministic state machines, runtime persistence, and automated test harnesses). Complete platform ownership is collaborative across all 6 team members.
+- **Architectural Highlights:**
+  - **Contribution Profit Over Vanity ROAS:** Replaces misleading revenue optimization with net contribution margin ($m = \text{Price} - \text{COGS} - \text{PickPack}$). Formulates SKU-level break-even ROAS thresholds ($1/m$).
+  - **Log-Log Elasticity Fitting:** Models diminishing returns $R(s) = r_0(s/s_0)^\beta$ with elasticity $\beta$ fitted via log-log regression ($\beta \in [0.4, 0.9]$), identifying optimal allocation where marginal profit per rupee $m \cdot \beta \cdot \text{ROAS} - 1 = 0$.
+  - **Inventory Runway Guardrails:** Real-time stock constraints identify stockout risks ($<3$ days forced donor up to $-100\%$, $<5$ days warning, receivers require $\ge 7$ days cover).
+  - **Closed-Loop M5 Learning:** Dynamic confidence calibration $c \leftarrow c + 0.3(\text{accuracy} - c)$ with dampening step clamps ($\pm 0.08$) within $[0.30, 0.95]$.
+  - **Automated Verification:** **86/86 Vitest tests passing** in `Bot25692/dqps-engine` across simulation logic, release regressions, integration hardening, and dataset independence.
+- **Exhibition Links:** [📂 Team Repository (Bot25692/dqps-engine)](https://github.com/Bot25692/dqps-engine) • [📈 Portfolio Case Study & Interactive Simulator](https://developer-portfolio-eta-steel.vercel.app/work/adapt-dqps-engine)
+
 ---
 
 ### CHAPTER 02 // HOW I BUILD: THE THREE AXIOMS
@@ -107,7 +129,7 @@ I am **RITHIK SV** ([@leinhabersv-bit](https://github.com/leinhabersv-bit)), a s
    Visual delight should emerge organically from computational systems: kinetic slip-angles, projectile parabolas, laser diffraction wave envelopes, and parametric 3D lattices. Visual polish is an engineering discipline, not an afterthought.
 
 3. **Axiom 03: Evidence Before Claims**  
-   Never assert performance, stability, or reliability without automated verification. Every state machine, collision boundary, physics calculation, and storage vault is guarded by automated test suites (**142+ Vitest tests passing across active projects**).
+   Never assert performance, stability, or reliability without automated verification. Every state machine, collision boundary, physics calculation, and storage vault is guarded by automated test suites (**228+ Vitest tests passing across active projects**).
 
 ---
 
@@ -119,7 +141,7 @@ FRONTEND & UI    :: React 18/19 • Next.js (App Router) • Vite • TailwindCS
 GRAPHICS & AUDIO :: Three.js (WebGL) • Canvas 2D Engine • Web Audio API (Procedural Synthesizers)
 SIMULATION & CAD :: Mathematical Modeling • Sinc/Interference Envelopes • Error Propagation Algorithms
 ARCHITECTURE     :: Local-First (IndexedDB) • On-Device Vaults • Prerequisite DAGs • Deterministic FSMs
-QUALITY & OPS    :: Vitest (142+ Tests) • Playwright Browser E2E • Node Test Runner • ESLint • Vercel CI/CD
+QUALITY & OPS    :: Vitest (228+ Tests) • Playwright Browser E2E • Node Test Runner • ESLint • Vercel CI/CD
 ```
 
 ---
